@@ -11,6 +11,9 @@ USTH ICT 2022 Distributed Systems
 Group Info
 =======================
 
-* Name 1 (ID1)
-* Name 2 (ID2)
+* Đỗ Chí Nghĩa BI10-125 
+* Nguyễn Quang Khải BI10-026
+* Lương Nguyễn Việt Sơn BI10-156
+* Phạm Hoàng Việt BI10-192
+* Đặng Hoàng Phúc BA9-050
 
