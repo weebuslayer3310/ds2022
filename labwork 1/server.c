@@ -4,7 +4,8 @@
 #include <sys/types.h>
 #include <sys/socket.h>
 #include <netdb.h>
-#include <fcntl.h>
+#include <fcntl.h> //for open
+#include <unistd.h> //for close
 
 void hadle_file( int cli, char* s, int sz) {
 

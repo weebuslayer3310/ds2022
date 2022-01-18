@@ -1,4 +1,6 @@
 
+#include <fcntl.h> //for open
+#include <unistd.h> //for close
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -10,7 +12,7 @@ void send_file(int serv, char* s, int sz, char* serverFileName, char* clientFile
     write(serv, serverFileName, strlen(serverFileName));
 
     // delay
-    for{int i = 0; i<9999; i++};
+    for(int i = 0; i<9999; i++);
     printf("file transfer will start in a minute.....");
 
     int file = open(clientFileName, O_RDWR);
